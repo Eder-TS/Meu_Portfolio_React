@@ -1,0 +1,30 @@
+.skills{
+    background-color: rgba(1, 09, 28, 0.75);
+
+    border-radius: 20px;
+
+    margin: 75px;
+    padding: 25px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.25));
+}
+
+.skills h1{
+    font-size: 66px;
+}
+
+.skills p{
+    font-size: 29px;
+}
+
+.skills img{
+    background-color: #222222;
+
+     width: 140px;
+
+     border-radius: 15px;
+
+     margin: 25px;
+
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.25));
+}
