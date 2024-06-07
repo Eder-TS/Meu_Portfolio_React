@@ -1,24 +1,22 @@
-import dncweather from '../../images/projects/dncweather.png'
-import landingpagednc from '../../images/projects/landingpagednc.png'
 import ButtonB from '../elements/ButtonB'
 import styles from './Card.module.css'
 
-function Card(){
+function Card({site, img, title, tech, description, repo}){
     return(
         <div className={styles.card}>
-            <img src={dncweather} alt={'Página de clima'}/>
+            <a href={site}>
+                <img src={img} alt=''/>
+            </a>
 
-            <div>
-                <h3>Projeto Clima e Logradouro</h3>
+            <section>
+                <h3>{title}</h3>
 
-                <p>Tecnologias: HTML, CSS, JavaScript</p>
-                <p>Projeto desenvolvido para uso interno de uma empresa onde os 
-                    funionários podem pesquisar um logradouro a partir de um CEP 
-                    e a tempretaura local a partir das coordenadas dadas.
-                </p>
+                <p><strong>Tecnologias:</strong> {tech}</p>
 
-                <ButtonB text='Acesse o repositório'/>
-            </div> 
+                <p>{description}</p>
+
+                <ButtonB text='Acesse o repositório' link={repo}/>
+            </section> 
         </div>
     )
 }
