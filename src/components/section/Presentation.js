@@ -9,11 +9,11 @@ function Presentation(){
             <h1><strong>Olá, eu sou Eder TS</strong></h1>
 
             <p>
-            Sou um apaixonado por tecnologia e soluções inovadoras.Como<br/>
-            Product Manager, eu tenho o compromisso de resolver<br/>
-            problemas complexos e trazer resultados excepcionais para os<br/>
-            negócios. Meus projetos já geraram milhões de reais em receita<br/>
-            anual e estou sempre em busca de novos desafios para superar.
+                Sou um apaixonado por tecnologia e soluções inovadoras. Como<br/>
+                Desenvolvedor, eu tenho o compromisso de resolver<br/>
+                problemas complexos e trazer resultados excepcionais para os<br/>
+                negócios. Meus projetos estão ao seu alcance para comprovar e <br/>
+                estou sempre em busca de novos desafios para superar.
             </p>
 
 

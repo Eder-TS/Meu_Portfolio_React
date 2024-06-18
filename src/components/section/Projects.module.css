@@ -8,3 +8,7 @@
 .projects h1{
     font-size: 66px;
 }
+
+.projects button{
+    text-align: center;
+}
