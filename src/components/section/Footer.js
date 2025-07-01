@@ -10,7 +10,7 @@ function Footer(){
                 <li><a href='https://www.linkedin.com/in/eder-ts/'><FaLinkedin size={30}/></a></li>
             </ul>
 
-            <p className={style.email}>steder20@yahoo.com.br</p>
+            <p className={style.email}>stederwork@gmail.com</p>
 
             <p>Eder TS © 2024</p>
         </div>
